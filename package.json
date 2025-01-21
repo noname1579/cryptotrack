@@ -1,6 +1,6 @@
 {
   "name": "cryptotrack",
-  "homepage": "https://github.com/noname1579/cryptotrack" ,
+  "homepage": "https://noname1579.github.io/cryptotrack" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
