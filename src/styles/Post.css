@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #e7e4e4;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 1%;
+  padding: 0 3%;
+  border-radius: 15px;
+}
+.container .container_info {
+  display: flex;
+  font-size: 23px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6%;
+}
+.container .container_info .container_info_form {
+  display: flex;
+  align-items: center;
+}
+.container .container_info .container_info_form .name {
+  margin-left: 50px;
+  font-weight: 800;
+}
+.container .container_info .container_info_form .stick {
+  margin: 0 6%;
+}
+.container .container_info .container_info_form img {
+  width: 55px;
+}
+.container .container_info .price {
+  font-weight: 400;
+}
+
+@media screen and (width < 1200px) {
+  .container {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    padding: 8% 2%;
+  }
+  .container .container_info {
+    font-size: 18px;
+  }
+  .container .container_info .container_info_form .name {
+    margin-left: 10px;
+  }
+  .container .container_info .container_info_form img {
+    width: 40px;
+  }
+}/*# sourceMappingURL=Post.css.map */
