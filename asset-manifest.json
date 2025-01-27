@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cryptotrack/static/css/main.647094c0.css",
-    "main.js": "/cryptotrack/static/js/main.e449639c.js",
+    "main.css": "/cryptotrack/static/css/main.8b5189fc.css",
+    "main.js": "/cryptotrack/static/js/main.0a2be7d3.js",
     "static/media/Bitcoin.svg.png": "/cryptotrack/static/media/Bitcoin.svg.b18fafc7ffb2a5e5dc6b.png",
     "index.html": "/cryptotrack/index.html",
-    "main.647094c0.css.map": "/cryptotrack/static/css/main.647094c0.css.map",
-    "main.e449639c.js.map": "/cryptotrack/static/js/main.e449639c.js.map"
+    "main.8b5189fc.css.map": "/cryptotrack/static/css/main.8b5189fc.css.map",
+    "main.0a2be7d3.js.map": "/cryptotrack/static/js/main.0a2be7d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.647094c0.css",
-    "static/js/main.e449639c.js"
+    "static/css/main.8b5189fc.css",
+    "static/js/main.0a2be7d3.js"
   ]
 }
