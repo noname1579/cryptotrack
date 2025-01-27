@@ -26,6 +26,12 @@
       display: flex;
       align-items: center;
 
+      .container_info_form_width {
+        width: 300px;
+        display: flex;
+        align-items: center;
+      }
+
       .name {
         margin-left: 50px;
         font-weight: 800;
@@ -58,18 +64,37 @@
     background-color: #fff;
     border-bottom: 1px solid gray;
     border-radius: 0;
-    padding: 8% 2%;
+    padding: 8% 0;
 
     .container_info {
-      font-size: 18px;
+      font-size: 14px;
 
       .container_info_form {
+
+        .container_info_form_width {
+          width: 170px;
+        }
+
         .name {
           margin-left: 10px;
         }
+
         img {
           width: 40px;
         }
+
+        .percent_change_24h {
+          padding-left: 5%;
+        }
+
+        .stick {
+          margin: 0 3%;
+        }
+
+      }
+
+      .price {
+        font-size: 12px;
       }
     }
   }

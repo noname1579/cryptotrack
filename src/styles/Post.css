@@ -25,6 +25,11 @@
   display: flex;
   align-items: center;
 }
+.container .container_info .container_info_form .container_info_form_width {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
 .container .container_info .container_info_form .name {
   margin-left: 50px;
   font-weight: 800;
@@ -50,15 +55,27 @@
     background-color: #fff;
     border-bottom: 1px solid gray;
     border-radius: 0;
-    padding: 8% 2%;
+    padding: 8% 0;
   }
   .container .container_info {
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .container .container_info .container_info_form .container_info_form_width {
+    width: 170px;
   }
   .container .container_info .container_info_form .name {
     margin-left: 10px;
   }
   .container .container_info .container_info_form img {
     width: 40px;
+  }
+  .container .container_info .container_info_form .percent_change_24h {
+    padding-left: 5%;
+  }
+  .container .container_info .container_info_form .stick {
+    margin: 0 3%;
+  }
+  .container .container_info .price {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=Post.css.map */
