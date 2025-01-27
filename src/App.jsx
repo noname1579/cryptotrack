@@ -27,7 +27,7 @@ export default function App() {
     }
     fetchData();
   }, []);
-  console.log(data)
+  // console.log(data)
 
   return (
     <>
