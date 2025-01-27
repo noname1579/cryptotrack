@@ -29,6 +29,11 @@
   margin-left: 50px;
   font-weight: 800;
 }
+.container .container_info .container_info_form .percent_change_24h {
+  padding-left: 15%;
+  display: flex;
+  align-items: center;
+}
 .container .container_info .container_info_form .stick {
   margin: 0 6%;
 }

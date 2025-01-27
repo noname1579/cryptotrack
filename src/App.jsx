@@ -25,7 +25,7 @@ export default function App() {
       <div className="app">
 
         {data.map(p => (
-          <Post name={p.symbol} fullname={p.name} price={p.price === 0 ? null : Number(p.price_usd).toFixed(2)} />
+          <Post name={p.symbol} fullname={p.name} percent_change_24h={p.percent_change_24h} price={p.price === 0 ? null : Number(p.price_usd).toFixed(2)} />
         ))}
       </div>
     </>
