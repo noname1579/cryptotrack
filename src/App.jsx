@@ -6,16 +6,30 @@ export default function App() {
 
   // const url = 'https://api.coinlore.net/api/tickers/'
   const url = 'https://api.coinranking.com/v2/coins'
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
+  const [loadind, setLoadind] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(url);
-      const result = await response.json();
-      setData(result.data.coins);
+      const response = await fetch(url)
+      const result = await response.json()
+      setData(result.data.coins)
+      setLoadind(false)
     }
-    setInterval(fetchData, 10000)
+    
+    fetchData()
   }, [])
+
+  if (loadind) {
+    return (
+      <>
+        <h2 className='loading-h2'>Загрузка...</h2>
+        <div className='loading'>
+          <div className="spin"></div>
+        </div>
+      </>
+    )
+  }
 
   return (
     <>
